@@ -24,7 +24,10 @@ body,
 }
 
 #root {
-  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* max-width: 100%; */
 }
 
 .wrapper {
@@ -38,7 +41,7 @@ body,
   box-sizing: border-box;
   color: rgb(208, 208, 208);
   margin: 0;
-  margin-top: 50px;
+  margin-top: 30%;
   min-width: 100px;
   padding: 50px;
   padding-top: 30px;
@@ -150,7 +153,7 @@ body,
     display: block;
   }
   .container {
-    margin: 0;
+    margin-top: 20%;
     padding: 20px;
     width: 100%;
   }
